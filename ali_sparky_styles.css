@@ -1,4 +1,3 @@
-/* Universal Selector */
 *,
 *::before,
 *::after {
@@ -8,7 +7,6 @@
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +14,6 @@ body {
     color: #222;
 }
 
-/* Header, Footer, and Div */
 header,
 footer,
 div {
@@ -24,7 +21,6 @@ div {
     margin: 0 auto;
 }
 
-/* Header and Footer */
 header,
 footer {
     background-color: #8c1d40;
@@ -33,43 +29,35 @@ footer {
     text-align: center;
 }
 
-/* h1 */
 h1 {
     font-size: 40px;
 }
 
-/* h2 */
 h2 {
     font-size: 32px;
 }
 
-/* h3 */
 h3 {
     font-size: 24px;
 }
 
-/* Grid Container */
 #grid-container {
     display: grid;
     grid-template-columns: 1.5fr 5fr;
 }
 
-/* Navigation */
 nav {
     background-color: #ffc627;
 }
 
-/* Unordered List in Navigation */
 nav ul {
     padding-left: 0;
 }
 
-/* List Items in Navigation */
 nav li {
     list-style-type: none;
 }
 
-/* Links in Navigation */
 nav a {
     display: block;
     background-color: #8c1d40;
@@ -82,43 +70,36 @@ nav a {
     font-size: 20px;
 }
 
-/* Hover effect for Links in Navigation */
 nav a:hover {
     background-color: #fff;
     color: #8c1d40;
 }
 
-/* Main */
 main {
     background-color: #fff;
     padding: 24px;
 }
 
-/* Links in Main */
 main a {
     color: #8c1d40;
     font-weight: bold;
 }
 
-/* Hover effect for Links in Main */
 main a:hover {
     background-color: #8c1d40;
     color: #fff;
     padding: 4px;
 }
 
-/* Paragraphs and Quote */
 main p,
 main q {
     color: #444;
 }
 
-/* Quote */
 main q {
     font-style: italic;
 }
 
-/* Two years in Last Paragraph */
 .year {
     background-color: #ffc627;
     color: #555;
@@ -127,20 +108,17 @@ main q {
     font-weight: bold;
 }
 
-/* h2 in Footer */
 footer h2 {
     font-size: 24px;
     margin: 8px;
 }
 
-/* Address Content */
 address {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
 }
 
-/* Links in Footer */
 footer a {
     color: #fff;
     display: inline-block;
@@ -148,7 +126,6 @@ footer a {
     font-weight: normal;
 }
 
-/* Hover effect for Links in Footer */
 footer a:hover {
     color: #ffc627;
 }
